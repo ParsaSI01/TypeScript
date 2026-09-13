@@ -2,7 +2,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Node: Current TypeScript File",
+            "name": "Node: Current File",
             "type": "node",
             "request": "launch",
             "program": "${file}",
