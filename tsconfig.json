@@ -9,9 +9,11 @@
         // See also https://aka.ms/tsconfig/module
         "module": "nodenext",
         "target": "esnext",
+        // "allowJs": true,
+        // "checkJs":true,
         "types": [],
         // For nodejs:
-        // "lib": ["esnext"],
+        "lib": ["esnext", "DOM", "DOM.Iterable", "ScriptHost"],
         // "types": ["node"],
         // and npm install -D @types/node
 
@@ -46,7 +48,6 @@
     //   "*.dev.ts",
     //   "**/*.dev.ts"
     // ],
-
 
     // "include":[
     //   "./assets/ts/Include.ts"
